@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6363ec;
+    height: 100vh;
+
+}
+.Startbtn{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.display-content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    width: 450px;
+    padding: 20px;
+}
+.display-content header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+header .timerBox{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    background-color: #e2e2f3;
+    justify-content: space-around;
+    padding:5px 10px ;
+    border-radius: 20px;
+    font-size: 18px;
+}
